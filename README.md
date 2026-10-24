@@ -61,11 +61,12 @@ Measurements in milliseconds using 5 runs each from `java -cp out Bench`.
 |---|---|---|
 | 100 x 100 | 42 | 535 |
 | 300 x 300 | 173 | 39011 |
-| 1000 x 1000 | | |
+| 1000 x 1000 | - | - |
 
 What do the numbers say about how the time grows? Two or three sentences.
 Complete this answer after collecting the measurements. Kruskal sorts the walls, while my Prim implementation scans al walls for each cell.
 The measurements will show how these different approaches affect running time as the maze grows.
+The 1000 x 1000 measurement did not finish during my test.
 
 ## Complexity
 
